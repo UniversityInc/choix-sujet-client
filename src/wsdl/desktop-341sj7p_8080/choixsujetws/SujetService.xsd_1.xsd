@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://webservices.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webservices.com/">
+
+<xs:element name="addSujet" type="tns:addSujet"/>
+
+<xs:element name="addSujetResponse" type="tns:addSujetResponse"/>
+
+<xs:element name="checkDispo" type="tns:checkDispo"/>
+
+<xs:element name="checkDispoResponse" type="tns:checkDispoResponse"/>
+
+<xs:element name="getEnonce" type="tns:getEnonce"/>
+
+<xs:element name="getEnonceResponse" type="tns:getEnonceResponse"/>
+
+<xs:element name="getIdEns" type="tns:getIdEns"/>
+
+<xs:element name="getIdEnsResponse" type="tns:getIdEnsResponse"/>
+
+<xs:element name="getPris" type="tns:getPris"/>
+
+<xs:element name="getPrisResponse" type="tns:getPrisResponse"/>
+
+<xs:element name="getTitre" type="tns:getTitre"/>
+
+<xs:element name="getTitreResponse" type="tns:getTitreResponse"/>
+
+<xs:element name="updateSujet" type="tns:updateSujet"/>
+
+<xs:element name="updateSujetResponse" type="tns:updateSujetResponse"/>
+
+<xs:complexType name="checkDispo">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkDispoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTitre">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTitreResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getIdEns">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getIdEnsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addSujet">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+<xs:element name="arg2" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addSujetResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPris">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPrisResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateSujet">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+<xs:element name="arg1" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateSujetResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getEnonce">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getEnonceResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

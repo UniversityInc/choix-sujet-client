@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/EtudiantService?wsdl" uri="wsdl/desktop-341sj7p_8080/choixsujetws/EtudiantService.wsdl"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/EtudiantService?xsd=1" uri="wsdl/desktop-341sj7p_8080/choixsujetws/EtudiantService.xsd_1.xsd"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/EnseignantService?wsdl" uri="wsdl/desktop-341sj7p_8080/choixsujetws/EnseignantService.wsdl"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/EnseignantService?xsd=1" uri="wsdl/desktop-341sj7p_8080/choixsujetws/EnseignantService.xsd_1.xsd"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/SujetService?wsdl" uri="wsdl/desktop-341sj7p_8080/choixsujetws/SujetService.wsdl"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/SujetService?xsd=1" uri="wsdl/desktop-341sj7p_8080/choixsujetws/SujetService.xsd_1.xsd"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/UtilisateurService?wsdl" uri="wsdl/desktop-341sj7p_8080/choixsujetws/UtilisateurService.wsdl"/>
+    <system systemId="http://desktop-341sj7p:8080/choixsujetws/UtilisateurService?xsd=1" uri="wsdl/desktop-341sj7p_8080/choixsujetws/UtilisateurService.xsd_1.xsd"/>
+</catalog>
